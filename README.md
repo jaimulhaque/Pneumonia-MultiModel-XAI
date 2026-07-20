@@ -2,7 +2,7 @@
 EfficientNet-B0 Based Pneumonia Classification with Explainable AI and Model Calibration
 ## 📌 Project Status
 
-### ✅ Completed
+### ✅ Completed--
 - Dataset preprocessing
 - Exploratory data analysis (EDA)
 - Baseline EfficientNetB0 training pipeline
