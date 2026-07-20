@@ -8,7 +8,7 @@ EfficientNet-B0 Based Pneumonia Classification with Explainable AI and Model Cal
 - Baseline EfficientNetB0 training pipeline
 - Initial model evaluation
 
-### 🔄 In Progress
+### 🔄 In Progress--
 - Training Pipeline v2 optimization
 - Fine-tuning EfficientNetB0
 
