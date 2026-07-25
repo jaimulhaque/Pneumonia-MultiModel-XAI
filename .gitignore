@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Model files
+models/*.pth
+
+# Checkpoints
+models/checkpoints/
+
+# Training logs
+models/training_logs/
+
+# Final models
+models/final_model/
