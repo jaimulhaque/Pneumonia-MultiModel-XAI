@@ -1,170 +1,59 @@
-# Pneumonia-EfficientNetB0-XAI
+# Pneumonia-MultiModel-XAI
 
-## EfficientNetV2B0-Based Multi-Class Pneumonia Classification with Explainable AI (Grad-CAM) and Model Calibration
+A PyTorch-based deep learning framework for multi-class pneumonia classification using chest X-ray images.
 
-This repository contains the implementation of a deep learning framework for multi-class pneumonia classification using chest X-ray images. The project utilizes EfficientNetV2B0 with transfer learning to classify chest X-rays into three categories:
+## Project Objective
 
-- NORMAL
-- BACTERIA
-- VIRUS
+This project compares four state-of-the-art deep learning architectures for multi-class pneumonia classification:
 
-The framework also incorporates Explainable AI (Grad-CAM) and model calibration techniques to improve interpretability and reliability for clinical decision support.
+- ResNet50 (Baseline CNN)
+- EfficientNet-B2
+- ConvNeXt-Tiny
+- Swin Transformer-Tiny
 
----
+All models are trained under identical experimental settings to ensure a fair comparison. Model predictions are interpreted using Grad-CAM for explainable artificial intelligence (XAI).
 
-# 📂 Project Structure
+## Dataset
 
-```
-Pneumonia-EfficientNetB0-XAI/
-│
-├── dataset/
-├── docs/
-├── models/
-├── notebooks/
-│   ├── 01_Setup_Data_Verification.ipynb
-│   ├── 02_Model_Training.ipynb
-│   ├── 03_Model_Evaluation.ipynb
-│   ├── 04_GradCAM.ipynb
-│   └── 05_Calibration.ipynb
-│
-├── results/
-├── utils/
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
+- Pediatric Chest X-ray Dataset (Kermany et al.)
+- Classes:
+  - NORMAL
+  - BACTERIA
+  - VIRUS
+- Stratified Train / Validation / Test Split
+
+## Project Structure
+
+```text
+dataset/
+models/
+results/
+logs/
+notebooks/
 ```
 
----
+## Models
 
-# 📊 Dataset
+- ResNet50
+- EfficientNet-B2
+- ConvNeXt-Tiny
+- Swin Transformer-Tiny
 
-Dataset: **Processed Chest X-ray Dataset**
-
-Classes:
-
-- NORMAL
-- BACTERIA
-- VIRUS
-
-Dataset Split:
-
-- Training: 70%
-- Validation: 15%
-- Testing: 15%
-
----
-
-# 🧠 Model
-
-- EfficientNetV2B0
-- Transfer Learning
-- Fine-Tuning
-- Data Augmentation
-- Early Stopping
-- ReduceLROnPlateau
-- Model Checkpoint
-- Resume Training Support
-
----
-
-# 📈 Evaluation Metrics
-
-The trained model will be evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-- ROC Curve
-- AUC Score
-
----
-
-# 🔬 Explainable AI
-
-The project includes Explainable AI using:
+## Explainability
 
 - Grad-CAM
 
-This helps visualize which regions of chest X-ray images contribute most to the model's predictions.
-
----
-
-# 📏 Model Calibration
-
-Calibration analysis will include:
-
-- Expected Calibration Error (ECE)
-- Reliability Diagram
-- Confidence Distribution
-
----
-
-# 📌 Project Status
-
-## ✅ Completed
-
-- Project initialization
-- Repository setup
-- Dataset preparation
-- Three-class dataset organization
-- Stratified Train/Validation/Test split
-- Dataset verification notebook
-- Google Colab environment setup
-- Exploratory Data Analysis (EDA)
-
----
-
-## 🔄 In Progress
-
-- EfficientNetV2B0 training pipeline
-- Transfer learning
-- Resume training implementation
-- Hyperparameter optimization
-
----
-
-## ⏳ Upcoming
-
-- Model evaluation
-- Grad-CAM visualization
-- Model calibration analysis
-- Performance comparison
-- Final research paper
-
----
-
-# 🚀 Development Workflow
-
-1. Dataset Verification
-2. Model Training
-3. Model Evaluation
-4. Explainable AI
-5. Model Calibration
-6. Research Paper Preparation
-
----
-
-# ⚙️ Frameworks
+## Framework
 
 - Python
-- TensorFlow
-- Keras
-- NumPy
-- Matplotlib
-- Scikit-learn
-- OpenCV
+- PyTorch
+- Torchvision
+- CUDA
 
----
+## Status
 
-# 📄 License
+🚧 Journal Version 2 (In Progress)
 
-This project is licensed under the MIT License.
+## License
 
----
-
-## 🚧 Project Status
-
-**Under Active Development**
+For research and educational purposes.
