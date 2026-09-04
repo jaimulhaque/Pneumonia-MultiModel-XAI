@@ -1,0 +1,43 @@
+{
+    "evaluation_dataset": "RSNA / COVID-19 Radiography (Binary)",
+    "total_samples": 17549,
+    "roc_auc": 0.5902,
+    "average_precision": 0.5068,
+    "confusion_matrix": [
+        [
+            6493,
+            3699
+        ],
+        [
+            3570,
+            3787
+        ]
+    ],
+    "classification_report": {
+        "NORMAL": {
+            "precision": 0.6452350193779192,
+            "recall": 0.6370682888540031,
+            "f1-score": 0.6411256479881511,
+            "support": 10192.0
+        },
+        "PNEUMONIA": {
+            "precision": 0.5058776382580817,
+            "recall": 0.5147478591817317,
+            "f1-score": 0.5102742033281682,
+            "support": 7357.0
+        },
+        "accuracy": 0.5857883640093453,
+        "macro avg": {
+            "precision": 0.5755563288180005,
+            "recall": 0.5759080740178675,
+            "f1-score": 0.5756999256581596,
+            "support": 17549.0
+        },
+        "weighted avg": {
+            "precision": 0.5868127586850794,
+            "recall": 0.5857883640093453,
+            "f1-score": 0.5862692984318519,
+            "support": 17549.0
+        }
+    }
+}
