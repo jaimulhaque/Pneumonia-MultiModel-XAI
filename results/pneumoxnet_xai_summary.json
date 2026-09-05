@@ -1,0 +1,20 @@
+{
+    "target_layer": "model.backbone.conv_head",
+    "xai_methods": [
+        "Grad-CAM",
+        "Grad-CAM++"
+    ],
+    "figure_saved": "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/results/xai_heatmaps/Figure_XAI_Comparative_Grid.png",
+    "samples_evaluated": {
+        "normal_samples": [
+            "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/dataset/processed_dataset/test/NORMAL/NORMAL2-IM-0249-0001.jpeg",
+            "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/dataset/processed_dataset/test/NORMAL/IM-0242-0001.jpeg",
+            "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/dataset/processed_dataset/test/NORMAL/NORMAL2-IM-1152-0001-0002.jpeg"
+        ],
+        "pneumonia_samples": [
+            "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/dataset/processed_dataset/test/BACTERIA/person1391_bacteria_3537.jpeg",
+            "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/dataset/processed_dataset/test/BACTERIA/person37_bacteria_187.jpeg",
+            "/mnt/g/Research paper/Research paper/Pneumonia-MultiModel-XAI/dataset/processed_dataset/test/VIRUS/person1089_virus_1808.jpeg"
+        ]
+    }
+}
