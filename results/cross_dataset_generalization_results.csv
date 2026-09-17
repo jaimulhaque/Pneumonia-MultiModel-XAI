@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1,roc_auc,time_min
+PneumoXNet,0.8554,0.7827,0.907,0.8403,0.9211,4.6
+EfficientNet-B2,0.8517,0.7702,0.9209,0.8389,0.9224,2.2
+ResNet-50,0.8287,0.7278,0.9448,0.8222,0.9062,2.7
+ConvNeXt-Tiny,0.8902,0.8377,0.9155,0.8748,0.9419,2.8
