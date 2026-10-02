@@ -1,0 +1,30 @@
+{
+  "img_size": 384,
+  "clahe_clip": 2.0,
+  "clahe_tile": 8,
+  "pad_value": 0,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "NORMAL",
+    "BACTERIA",
+    "VIRUS"
+  ],
+  "aug": {
+    "hflip": 0.5,
+    "rotation_deg": 10,
+    "translate": 0.05,
+    "scale": 0.05,
+    "brightness": 0.1,
+    "contrast": 0.1,
+    "random_erasing": false
+  }
+}
