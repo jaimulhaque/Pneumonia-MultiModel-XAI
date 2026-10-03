@@ -1,0 +1,7 @@
+{
+  "spec": "proposed:efficientnet_v2_s:eca",
+  "backbone": "efficientnet_v2_s",
+  "attn": "eca",
+  "val_acc": 0.8361774744027304,
+  "params_M": 20.181336
+}
