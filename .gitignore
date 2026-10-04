@@ -233,3 +233,4 @@ models/checkpoints/
 models/training_logs/
 models/final_model/
 data set/
+*.pt
